@@ -34,7 +34,7 @@ int main()
         visited[i]=false;
     }
     int str=1;
-    for(i=2;i<=n;i++)
+    for(i=1;i<=n;i++)
     {
         if(visited[i]==false)
     dfs(i,vec,visited);
